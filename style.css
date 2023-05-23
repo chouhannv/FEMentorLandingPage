@@ -1,0 +1,47 @@
+.container {
+    position: relative;
+    display: block;
+    width: 80vw;
+    height: 80vh;
+    background-color: #D6E1F0;
+    margin: 35px auto;
+    border-radius: 3px;
+    box-shadow: 0px 10px 20px 0px #888888;
+}
+
+.qr_box {
+    position: absolute;
+    display: block;
+    width: 210px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 10px 10px -3px #888888;
+}
+
+.qrcode_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 50%;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.qrcode_text--h3 {
+    text-align: center;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.qrcode_text--p {
+    text-align: center;
+    font-size: small;
+    color: grey;
+    width: 90%;
+    margin: 5px auto;
+}
